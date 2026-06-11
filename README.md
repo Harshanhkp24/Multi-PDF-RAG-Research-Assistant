@@ -40,6 +40,7 @@ copy .env.example .env   # Windows
 # cp .env.example .env     # macOS/Linux
 
 uvicorn app.main:app --reload --port 8000
+python -m uvicorn app.main:app --reload --port 8000
 ```
 
 API docs: http://127.0.0.1:8000/docs
